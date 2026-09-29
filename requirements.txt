@@ -1,0 +1,10 @@
+numpy>=1.24
+opencv-python>=4.8
+torch>=2.1
+torchvision>=0.16      # GPU NMS (batched_nms)
+ultralytics>=8.3
+onnx>=1.15             # export-time FP16 verification
+onnxruntime-gpu>=1.17  # pulls CUDA/cuDNN 9 pip libs; CPU-only dev: pip install onnxruntime
+psutil>=5.9
+nvidia-ml-py>=12.0     # process-level VRAM telemetry (import name stays `pynvml`)
+# Optional TensorRT path: pip install tensorrt  (then benchmark.py --tensorrt)

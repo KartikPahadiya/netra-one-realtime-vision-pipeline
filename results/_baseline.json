@@ -1,0 +1,19 @@
+{
+  "frames_processed": 328,
+  "dropped_frames": 0,
+  "wall_s": 30.34134060004726,
+  "name": "baseline",
+  "streams": 4,
+  "ticks_measured": 82,
+  "total_fps": 10.81033314656799,
+  "latency_mean_ms": 370.0152987801674,
+  "p50_ms": 363.30079997424036,
+  "p95_ms": 441.1173949192744,
+  "p99_ms": 510.1942159980535,
+  "vram_peak_mb": 750.546944,
+  "vram_device_wide": true,
+  "vram_idle_mb": 531.914752,
+  "vram_source": "nvml",
+  "vram_reserved_mb": 125.82912,
+  "cpu_percent": 7.718288590604027
+}
